@@ -22,6 +22,7 @@ add_library(${PROJECT_NAME} src/nodelets/convert_metric.cpp
                              src/nodelets/point_cloud_xyz.cpp
                              src/nodelets/point_cloud_xyzrgb.cpp
                              src/nodelets/point_cloud_xyzi.cpp
+                             src/nodelets/point_cloud_xyzl.cpp
                              src/nodelets/point_cloud_xyz_radial.cpp
                              src/nodelets/point_cloud_xyzi_radial.cpp
                              src/nodelets/register.cpp

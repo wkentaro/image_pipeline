@@ -54,6 +54,15 @@
       Nodelet to convert an Radial depth and intensity map to a point.
     </description>
   </class>
+
+  <class name="depth_image_proc/point_cloud_xyzl"
+         type="depth_image_proc::PointCloudXyzlNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Nodelet to combine registered depth image and label image into XYZL point cloud.
+    </description>
+  </class>
+
   <class name="depth_image_proc/register"
 	 type="depth_image_proc::RegisterNodelet"
 	 base_class_type="nodelet::Nodelet">
